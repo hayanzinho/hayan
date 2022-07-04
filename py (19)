@@ -1,0 +1,9 @@
+nota=int(input("Digite sua nota:"))
+if nota>7:
+    print ("Voce está acima da média! \n média necessaria: 7 \n nota alcançada:",nota)
+
+else:
+    print("Voce está abaixo da média! \n média necessaria: 7 \n nota alcançada:", nota)
+
+if nota==10:
+    print("Voce foi aprovado com Distinção! \n média necessaria: 7 \n nota alcançada:",nota)

@@ -1,0 +1,8 @@
+got=("Bolinhas", 50, 25, 0) 
+print(got)
+print(type(got))
+print(len(got))
+got=("Seu produto está entrgue",86,43,54,7.7)
+print(got)
+print(type(got))
+print(len(got))

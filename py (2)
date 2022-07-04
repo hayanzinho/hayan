@@ -1,0 +1,4 @@
+top5=("Black Mirror","Breaking Bad","Friends","Game of Thorones","The big bang Theory")
+print ("house" in top5)
+print("Game of Thorones" in top5)
+print ("friends" in top5)

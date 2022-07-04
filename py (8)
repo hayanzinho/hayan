@@ -1,0 +1,6 @@
+tradutor={}
+tradutor ["pneapple"]="Abacaxi"
+tradutor ["apple"] = "Maça"
+tradutor ["Orange"] = "Laranja"
+print(type(tradutor))
+print (tradutor)

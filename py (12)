@@ -1,0 +1,6 @@
+tele=(input("Telefonou para a vítima? "))
+loc=(input("Esteve no local do crime?" ))
+mora=(input("Mora perto da vítima?" ))
+dev=(input("Devia para a vítima?" ))
+trab=(input("Já trabalhou com a vítima?" ))
+

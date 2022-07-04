@@ -1,0 +1,45 @@
+salario=int(input("Digite seu salario:"))
+aumento1=2.0
+aumento2=1.5
+aumento3=1.0
+aumento4=0.75
+valorT1=aumento1*salario
+valorT2=aumento2*salario
+valorT3=aumento3*salario
+valorT4=aumento4*salario
+pos1=valorT1
+pos2=valorT2
+pos3=valorT3
+pos4=valorT4
+valorT5=salario+valorT1
+valorT6=salario+valorT2
+valorT7=salario+valorT3
+valorT8=salario+valorT4
+
+if salario <=280:
+    aumento1*salario
+    print ("Seu salario antes do reajuste:", salario)
+    print ("Porcentual aplicado:",aumento1)
+    print ("O valor do aumento é de:",pos1)
+    print ("Seu novo salario é:",valorT5)
+    
+elif salario >280 and salario <=700:
+    aumento2*salario
+    print ("Seu salario antes do reajuste:", salario)
+    print ("Porcentual aplicado:",aumento2)
+    print ("O valor do aumento é de:",pos2)
+    print ("Seu novo salario é:",valorT6)
+elif salario >700 and salario<1500:
+    aumento3*salario
+    print ("Seu salario antes do reajuste:", salario)
+    print ("Porcentual aplicado:",aumento3)
+    print ("O valor do aumento é de:",pos3)
+    print ("Seu novo salario é:",valorT7)
+elif salario >=1500:
+    aumento4*salario
+    print ("Seu salario antes do reajuste:", salario)
+    print ("Porcentual aplicado:",aumento4)
+    print ("O valor do aumento é de:",pos4)
+    print ("Seu novo salario é:",valorT8)
+else:
+    print("Valor invalido")

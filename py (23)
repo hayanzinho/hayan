@@ -1,0 +1,9 @@
+nome = (input("Digite seu turno (M) (V) (N):"))
+if nome=="M":
+    print ("Bom dia")
+elif nome=="V":
+    print ("Boa tarde")
+elif nome=="N":
+    print ("Boa noite") 
+else:
+    print("Valor invalido!")

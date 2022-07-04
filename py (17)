@@ -1,0 +1,9 @@
+nome = (input("Digite seu Sexo (M) (F) (O):"))
+if nome=="M":
+    print ("Sexo Masculino")
+elif nome=="F":
+    print ("Sexo Feminino")
+elif nome=="O":
+    print ("Outro") 
+else:
+    print("Sexo Invalido")

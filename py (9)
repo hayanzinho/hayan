@@ -1,0 +1,31 @@
+tradutor={}
+tradutor ["pneapple"]="Abacaxi"
+tradutor ["apple"] = "Maça"
+tradutor ["Orange"] = "Laranja"
+print(tradutor["apple"])
+print(tradutor["Orange"])
+print(tradutor["pneapple"])
+
+tradutor={}
+tradutor ["pneapple"]="Abacaxi"
+tradutor ["apple"] = "Maça"
+tradutor ["Orange"] = "Laranja"
+print(tradutor)
+del(tradutor["apple"])
+print(tradutor)
+
+
+tradutor={}
+tradutor ["pneapple"]="Abacaxi"
+tradutor ["apple"] = "Maça"
+tradutor ["Orange"] = "Laranja"
+print("apple" in tradutor)
+
+
+tradutor={}
+tradutor ["pneapple"]="Abacaxi"
+tradutor ["apple"] = "Maça"
+tradutor ["Orange"] = "Laranja"
+print(tradutor)
+tradutor ["apple"] = "Red"
+print(tradutor)

@@ -1,0 +1,18 @@
+nota1=float(input("Digite sua nota: "))
+nota2=float(input("Digite sua nota: "))
+media=nota1+nota2/2
+if media >=9 and media<=10:
+    print("Sua nota é de A!", media)
+elif media >=7.5 and media<=9:
+    print("Sua nota é de B!", media)
+elif media >=6 and media<=7.5:
+    print("Sua nota é de C!", media)
+elif media >=4 and media<=6:
+    print("Sua nota é de D!", media)
+elif media <=4 and media >=0:
+    print("Sua nota é de E!", media)
+elif media ==("A,B,C"):
+    print("Aprovado!")
+else:
+    print("Reprovado!")
+

@@ -1,0 +1,3 @@
+num=[1,5,8,23]
+num=(max(num))
+print("O maior numero é:", num)

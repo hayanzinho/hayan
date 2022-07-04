@@ -1,0 +1,4 @@
+cinema=("Sony","Walt Disney","Universal","Warner")
+if "Disney" in cinema:
+    print(cinema.index("Disney"))
+else:print("Disney não está na lista")

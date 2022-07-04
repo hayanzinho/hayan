@@ -1,0 +1,6 @@
+numero1= (input("Digite um numero:"))
+numero2= (input("Digite outro numero:"))
+if numero1 > numero2:
+    print("O primeiro numero é maior q o segundo",numero1)
+else:
+    print("O segundo numero é maior q o primeiro",numero2)
